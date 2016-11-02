@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal" >
+
+    <com.example.dropdowndemo.DropDownView
+        android:id="@+id/drop_down_view"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shape_backgroud_custom"
+        android:drawableRight="@drawable/pic_confirm_dropdown"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="资源属性"
+        android:textColor="#4c4c4c"
+        android:textColorHint="#55000000"
+        android:textSize="18sp" />
+
+</LinearLayout>
